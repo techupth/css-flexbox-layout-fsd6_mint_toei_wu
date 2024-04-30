@@ -1,1 +1,113 @@
 /* Start coding here */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(
+    50deg,
+    hsl(337, 100%, 70%),
+    hsl(205, 100%, 70%)
+  );
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.promotion {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.cat-pro,
+.dog-pro,
+.fish-pro {
+  background-color: hsla(0, 50%, 100%, 0.2);
+  border-radius: 0.5;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 2rem;
+}
+
+ul,
+p {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+.title-cat,
+.title-dog,
+.title-fish {
+  font-size: 3rem;
+  font-weight: 700;
+  color: aliceblue;
+}
+
+.list {
+  border-bottom: 1px solid rgba(86, 78, 80, 0.2);
+  width: 100%;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.detail-dog,
+.detail-cat,
+.detail-fish {
+  text-align: center;
+}
+
+button {
+  background-color: yellow;
+  border-width: 0;
+  height: 60px;
+  border-radius: 5px;
+  font-size: 2rem;
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+}
+
+.price-dog,
+.price-cat,
+.price-fish {
+  font-size: 5rem;
+  font-weight: 600;
+}
+
+.cat-pro {
+  display: flex;
+  flex-basis: 25%;
+  gap: 30px;
+}
+
+.dog-pro {
+  display: flex;
+  flex-basis: 25%;
+  gap: 30px;
+}
+
+.dog-pro {
+  display: flex;
+  flex-basis: 25%;
+  gap: 30px;
+}
+
+.fish-pro {
+  display: flex;
+  flex-basis: 25%;
+  gap: 30px;
+}
